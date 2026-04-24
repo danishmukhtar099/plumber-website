@@ -4,19 +4,17 @@ body{
   background:#f4f6f8;
 }
 
-/* HEADER */
 header{
   display:flex;
   justify-content:space-between;
   align-items:center;
-  padding:15px 20px;
+  padding:15px;
   background:#0a3d62;
   color:white;
 }
 
 .logo{
   font-weight:bold;
-  font-size:18px;
 }
 
 .btn{
@@ -25,9 +23,9 @@ header{
   padding:10px 15px;
   text-decoration:none;
   border-radius:5px;
+  margin-left:5px;
 }
 
-/* HERO */
 .hero{
   text-align:center;
   padding:80px 20px;
@@ -35,21 +33,15 @@ header{
   color:white;
 }
 
-.hero h1{
-  font-size:32px;
-}
-
-/* SERVICES */
 .services{
-  padding:50px 20px;
   text-align:center;
+  padding:40px;
 }
 
 .grid{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
   gap:15px;
-  margin-top:20px;
 }
 
 .card{
@@ -57,21 +49,14 @@ header{
   padding:20px;
   border-radius:10px;
   box-shadow:0 0 10px rgba(0,0,0,0.1);
-  transition:0.3s;
 }
 
-.card:hover{
-  transform:translateY(-5px);
-}
-
-/* ABOUT */
-.about{
+.cta{
   text-align:center;
-  padding:40px 20px;
+  padding:40px;
   background:white;
 }
 
-/* FOOTER */
 footer{
   text-align:center;
   padding:15px;
